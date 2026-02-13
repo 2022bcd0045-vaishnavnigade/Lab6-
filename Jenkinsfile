@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_CREDS = credentials('dockerhub-creds')
         BEST_ACCURACY = credentials('best-accuracy')
-        IMAGE_NAME = "yourdockerhubusername/ml-model"
+        IMAGE_NAME = "2022bcd0045nigadevaishnav/ml-model"
     }
 
     stages {
